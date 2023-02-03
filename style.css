@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+header h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.contenedor-banner {
+    background: url(./img/design1_image2\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+
+}
+
+.activo {
+
+    background-color: rgb(45, 200, 36);
+}
+
+nav a {
+    text-decoration: none;
+    padding: 2px 8px;
+    color: white;
+    background-color: rgb(61, 42, 203);
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    font-size: 10px;
+}
+
+.barra {
+    background-color: rgb(240, 248, 248);
+    text-align: center;
+    color: rgb(14, 14, 14);
+    border: 2px solid black;
+}
+
+.barra p {
+    font-weight: 900;
+}
+
+.titulo {
+    position: absolute;
+    right: 140px;
+    top: 13px;
+}
+
+.foto{
+    width: 100%;
+}
+.contenedor-img{
+    width: 100px;
+    display: inline-block;
+}
+
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+.contenedor-datos{
+    display: inline-block;
+    margin: 20px 50px;
+    width: 680px;
+
+}
+.contenedor-datos section{
+    padding: 10px;
+}

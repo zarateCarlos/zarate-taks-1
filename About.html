@@ -6,23 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mighty Ducks</title>
-    <link rel="shortcut icon" href="./Logo_Mighty_ducks-01.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/Logo_Mighty_ducks-01.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <figure><img src="./Logo_Mighty_ducks-01.png" width="100" alt="logo Mighty Ducks Hockey League"></figure>
         <h1>Mighty Ducks Hockey League</h1>
+        <div class="contenedor-banner">
+        </div>
+        <div class="barra">
+            <p>About</p>
+        </div>
     </header>
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="#"> About MDHL</a>
+    <nav class="titulo">
+        <a  href="./index.html">Home</a>
+        <a class="activo" href="#"> About</a>
         <a href="./contac.html"> contact</a>
     </nav>
     <main>
-        <figure>
-            <img src="./hockey_2.jpg" width="100" alt="player Mighty Ducks Hockey League">
-        </figure>
+        <div class="contenedor-img">
+            <figure>
+                <img class="foto" src="./img/Logo_Mighty_ducks-01.png" width="100"
+                    alt="logo Mighty Ducks Hockey League">
+            </figure>
+            <figure>
+                <img class="foto" src="./img/hockey_2.jpg" width="100" alt="player Mighty Ducks Hockey League">
+            </figure>
+        </div>
+
+            <div class="contenedor-datos">
         <section>
             <h3>Mision</h3>
             <p>To support young athletes living Chicago's northside neighborhood, who have an interest in
@@ -44,7 +57,7 @@
                 parents and previous league members</p>
         </section>
 
-
+            </div>
     </main>
 
 </body>
