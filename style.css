@@ -66,7 +66,7 @@ nav {
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    max-width: 450px;
+    max-width: 520px;
     padding: 8px 20px;
     border-radius: 10px;
     backdrop-filter: blur(10px);
@@ -156,7 +156,7 @@ nav a:hover {
     max-width: 1300px;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     width: 100%;
     margin: 50px auto;
     padding: 20px;
@@ -199,11 +199,12 @@ nav a:hover {
     transition: all ease 500ms
 }
 
-.tamaño{
+.tamaño {
     width: 150px;
     transition: all ease 500ms
 }
-.tamaño:hover{
+
+.tamaño:hover {
     transition-duration: .5s, .5s;
     transform: rotate(360deg);
     cursor: pointer;
@@ -293,7 +294,8 @@ ul li {
     text-align: start;
     margin-left: 160px;
 }
-.linea{
+
+.linea {
     text-decoration: underline;
 }
 
@@ -308,6 +310,384 @@ th {
     text-align: center;
 }
 
-.activo{
+.game-contenedor {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contenedor-mapas {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.contenedor-mapas iframe {
+    width: 310px;
+    margin: 10px;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(2, 3, 8, 0.1);
+    transition: all ease 500ms
+}
+
+.contenedor-mapas iframe:hover {
+    box-shadow: 0 0 10px 1px rgb(255, 255, 255);
+
+}
+
+
+.mjs {
+
+    margin: 10px 0;
+    width: 100%;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(2, 3, 8, 0.1);
+    border-radius: 10px;
+}
+
+.registro {
+
+    margin-top: 20px;
+    width: 100%;
+    padding: 40px 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(2, 3, 8, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.vert {
+    display: flex;
+}
+
+.vert-1 {
+    display: flex;
+}
+
+
+.cot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.enlinea {
+    display: inline-block;
+}
+
+.activo {
     color: #F8E12E;
+}
+
+.campo-1 {
+    display: inline-block;
+}
+
+.campo-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-form {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+form {
+    flex-direction: column;
+    display: flex;
+    align-content: flex-start;
+    padding-top: 30px;
+
+}
+
+input {
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    height: 18px;
+    text-align: center;
+    margin-left: 5px;
+
+}
+
+.male {
+    margin-left: 5px;
+}
+
+.espacio {
+    margin-right: 30px;
+}
+
+label {
+    display: flex;
+    gap: 5px;
+}
+
+.btn-enviar {
+    width: 25%;
+    height: 25px;
+    margin: o auto;
+    background-color: aliceblue;
+    margin-left: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: auto;
+
+
+}
+
+.btn-enviar:hover {
+    background-color: #F8E12E;
+}
+
+.btn-enviar input {
+    border-bottom: 0px;
+    text-align: center;
+    margin: 0;
+    width: 100%
+}
+.columna{
+    display: flex;
+}
+.campo-1{
+    display: flex;
+}
+.campo-3{
+    display: flex;
+}
+
+@media only screen and (min-width:768px) and (max-width:1022px) {
+    .logo h1 {
+        font-size: 16px;
+    }
+
+    nav {
+        width: 350px;
+    }
+
+    nav a {
+        font-size: 10px;
+        margin: 2px;
+        
+    }
+
+    .foto {
+        width: 250px;
+        height: 180px;
+    }
+
+    .home-data {
+        width: 100%;
+
+    }
+
+    .foto-about {
+        width: 250px;
+        height: 170px;
+    }
+
+    .tamaño {
+        width: 100px;
+    }
+
+    .home-about {
+        width: 100%;
+        min-height: 150px;
+    }
+
+    .contenedor-mapas iframe {
+        width: 280px;
+        height: 280px;
+
+    }
+
+    .color p {
+        margin-left: 50px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    input {
+        font-size: 10px;
+    }
+
+    .vert-1 {
+        display: flex;
+    }
+
+    h2 {
+        font-size: 15px;
+
+    }
+
+    .registro {
+        padding: 15px 5px;
+        
+    }
+
+    .contenedor-datos {
+        margin: 20px auto;
+    }
+}
+
+
+@media only screen and (min-width:319px) and (max-width:767px) {
+
+    header {
+        flex-direction: column;
+        width: 90%;
+    }
+
+
+    .logo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo h1 {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 13px;
+
+    }
+
+    .registro {
+        padding: 10px 5px;
+    }
+
+    nav {
+        width: 100%;
+        padding: 2px;
+    }
+
+    nav a {
+        font-size: 8px;
+        padding: 2px;
+        margin: 2px;
+    }
+
+    .foto {
+
+        width: 220px;
+        height: 150px;
+    }
+
+    .contenedor-img {
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .cont-home {
+        flex-wrap: wrap;
+    }
+
+    .contenedor-datos {
+        margin-top: 20px;
+    }
+
+    .tamaño {
+        width: 60px;
+        padding: 0;
+        
+    }
+
+    .foto-about {
+        width: 100px;
+        height: 100px;
+    }
+
+    .home-about {
+        min-height: 200px;
+    }
+
+    .color p {
+        margin-left: 5px;
+        font-size: 10px;
+    }
+
+    table {
+        font-size: 10px;
+    }
+
+    .contenedor-mapas iframe {
+        width: 220px;
+        height: 220px;
+    }
+
+    .game-contenedor {
+        font-size: 9px;
+        width: 90%;
+    }
+
+    .contenedor-datos {
+        font-size: 12px;
+        align-content: flex-start;
+        flex-direction: column;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        gap: 5px;
+    }
+
+    input {
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        gap: 5px;
+    }
+
+    label {
+        margin-top: 5px;
+    }
+
+.columna{
+    flex-direction: column;
+}
+
+.gender {
+    margin: 10px 0;
+}
+
+.campo-1 {
+    flex-direction: column;
+}
+
+.campo-3 {
+    flex-direction: column;
+}
+
+.btn-enviar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 10px auto;
+
+}
+
 }
